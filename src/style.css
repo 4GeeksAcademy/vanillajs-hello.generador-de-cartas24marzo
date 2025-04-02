@@ -26,7 +26,7 @@ body{
   }
 
   .number {
-    
+    color: black;
     font-size: 120px;
     font-weight: bold;
     position:absolute;

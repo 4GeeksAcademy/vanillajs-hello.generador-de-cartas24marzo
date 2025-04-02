@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 
-window.onclick = function() {
+window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
   function randomCard() {
@@ -25,6 +25,7 @@ window.onclick = function() {
  
      document.querySelector(".palos-header").style.color = color;
      document.querySelector(".palos-footer").style.color = color;
+     document.querySelector(".number").style.color = color;
    }
    randomCard();
 };
